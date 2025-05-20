@@ -1,5 +1,5 @@
 export function Header (props) {
-    const { todos } = props
+    const { todos } = props /* Destructuring syntax */
     const todosLength = todos.length
     const isTaskPlural = todos.length != 1
     const taskOrTasks = isTaskPlural ? 'tasks' : 'task'
